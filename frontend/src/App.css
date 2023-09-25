@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin: auto;
+}
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  margin-top: 30px;
+  column-gap: 30px;
+  row-gap: 30px;
+  place-items: center;
+}
+
+.input-container {
+  margin: 20px;
+}
+
+/* .container {
+  display: flex;
+  justify-content: space-around;
+  margin: 'auto';
+  flex-wrap: wrap;
+}
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+  flex-wrap: wrap;
+} */

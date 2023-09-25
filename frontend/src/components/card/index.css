@@ -1,0 +1,9 @@
+.card {
+  display: flex;
+  height: 300px;
+}
+
+.card,
+img {
+  object-fit: cover;
+}
